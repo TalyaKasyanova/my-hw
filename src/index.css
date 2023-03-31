@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'weathericons';
+  src: url('../public/weathericons-regular-webfont.woff');
+  src:url('../public/weathericons-regular-webfont.woff2')
+}
+
+@import url('./weather-icons-wind.css');
+@import url('./weather-icons.css');
+
+
+
